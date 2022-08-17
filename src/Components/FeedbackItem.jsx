@@ -1,6 +1,5 @@
 import { FaTimes } from 'react-icons/fa'
 import Card from "./Card"
-import PropTypes from "prop-types"
 
 
 function FeedbackItem({ item, handleDelete }) {
