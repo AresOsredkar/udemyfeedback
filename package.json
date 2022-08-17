@@ -2,7 +2,6 @@
   "name": "udemyfeedback",
   "version": "0.1.0",
   "private": true,
-  "proxy": "",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -24,6 +23,7 @@
     "server": "json-server --watch db.json --port 5000",
     "dev": "concurrently \"npm run server\" \"serve -s build\""
   },
+  "proxy": "",
   "eslintConfig": {
     "extends": [
       "react-app",
